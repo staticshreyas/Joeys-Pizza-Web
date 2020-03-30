@@ -93,8 +93,8 @@ app.use(function(err, req, res, next) {
 
 
 (async () => {
-  const files = await imagemin(['images/*.{jpg,png}'], {
-    destination: 'build/images',
+  const files = await imagemin(['/images/*.{jpg,png}'], {
+    destination: '/images',
     plugins: [
       imageminJpegtran(),
     ]
