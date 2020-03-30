@@ -21,7 +21,12 @@ var shopRouter =require('./routes/shop');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost:27017/shopping',{useNewUrlParser: true, useUnifiedTopology: true});
+const port = process.env.PORT;
+
+
+//mongodb://<dbuser>:<dbpassword>@ds035856.mlab.com:35856/heroku_hmc4062j
+/*mongoose.connect('mongodb://localhost:27017/shopping',{useNewUrlParser: true, useUnifiedTopology: true});*/
+mongoose.connect('mongodb://shreyas_more:z1y2x3w4@ds035856.mlab.com:35856/heroku_hmc4062j',{useNewUrlParser: true, useUnifiedTopology: true});
 require('./config/passport');
 
 // view engine setup
@@ -45,7 +50,7 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
   store: new MongoStore({mongooseConnection: mongoose.connection}),
-  cookie: {maxAge: 5*60*1000}
+  cookie: {maxAge: 10*60*1000}
 }));
 
 app.use(flash());
@@ -87,3 +92,4 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+app.listen(port);
