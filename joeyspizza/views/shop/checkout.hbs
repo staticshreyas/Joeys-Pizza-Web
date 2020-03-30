@@ -1,0 +1,144 @@
+<div class="hero-wrap hero-bread" style="background-image: url(/images/bg_1.jpg);">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>Checkout</span>
+                </p>
+                <h1 class="mb-0 bread">Checkout</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="ftco-section">
+    <!-- <div class="container">
+         <div class="row justify-content-center">
+             <div class="col-xl-7 ftco-animate">
+                     <h3 class="mb-4 billing-heading">Billing Details</h3>
+                     <div class="row align-items-end">
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="firstname">Name</label>
+                                 <input type="text" id="name" name="name" class="form-control" placeholder="">
+                             </div>
+                         </div>
+                         <div class="w-100"></div>
+
+                         <div class="w-100"></div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="streetaddress">Address</label>
+                                 <input type="text" id="address" name="address" class="form-control" placeholder="">
+                             </div>
+                         </div>
+
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="zip">Postcode / ZIP </label>
+                                 <input type="text" id="zip" name="zip" class="form-control" placeholder="">
+                             </div>
+                         </div>
+
+                         <div class="w-100"></div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="phone">Phone</label>
+                                 <input type="text" id="phone" name="phone" class="form-control" placeholder="">
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="email">Email Address</label>
+                                 <input type="text" id="email" name="email" class="form-control" placeholder="">
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="cardholdername">Card Holder Name</label>
+                                 <input type="text" id="cardholdername" name="cardholdername" class="form-control" placeholder="">
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="cardnumber">Credit/Debit Card Number</label>
+                                 <input type="text" id="card-number" name="card-number" class="form-control" placeholder="">
+                             </div>
+                         </div>
+
+                         <div class="w-100"></div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="expirymonth">Expiration Month</label>
+                                 <input type="text" id="card-expiry-month" name="card-expiry-month" class="form-control" placeholder="">
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="expiryyear">Expiration Year</label>
+                                 <input type="text" id="card-expiry-year" name="card-expiry-year" class="form-control" placeholder="">
+                             </div>
+                         </div>
+                         <div class="w-100"></div>
+                         <div class="col-md-6">
+                             <div class="form-group">
+                                 <label for="cvv">CVV</label>
+                                 <input type="text" id="card-cvv" name="card-cvv" class="form-control" placeholder="">
+                             </div>
+                         </div>
+
+                     </div>
+
+             </div>-->
+<div class="container">
+    <div class=" row justify-content-center">
+            <div class="col-xl-5">
+                <div class="row mt-5 pt-3">
+                    <div class="col-md-12 d-flex mb-5">
+                        <div class="cart-detail cart-total p-3 p-md-4">
+                            <h3 class="billing-heading mb-4">Cart Total</h3>
+                            <p class="d-flex">
+                                <span>Subtotal: &emsp;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14; Rs.{{total}}</span>
+
+                            </p>
+
+                            <p class="d-flex">
+                                <span>Delivery: &emsp;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14; Rs.50</span>
+
+                            </p>
+                            <hr>
+                            <p class="d-flex total-price">
+                                <span>Total: &emsp;&emsp;&emsp;&emsp14;&emsp14;&emsp14;&emsp14; Rs.{{finalPrice}}</span>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center col-md-12">
+                           <form action="/charge" method="post">
+                               <script
+                                       src="https://checkout.stripe.com/checkout.js"
+                                       class="stripe-button"
+                                       data-key="pk_test_hSd6sfCAFsvHFkLvLx3EKkNO00crIKDOP7"
+                                       data-amount="{{chargeAmount}}"
+                                       data-locale="auto"
+                                       data-currency="rupees"
+                               >
+                               </script>
+                               <input type="hidden" name="chargeAmount" value="{{chargeAmount}}">
+
+                           </form>
+                           <!-- <button type="submit" class="btn btn-primary py-3 px-4">Place an order</button>-->
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</div>
+
+</section>
+ <!-- .section -->
+
+
+<script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+<script type="text/javascript" src="public/javascripts/checkout.js"></script>

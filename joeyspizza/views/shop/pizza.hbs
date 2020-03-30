@@ -1,0 +1,70 @@
+<div class="hero-wrap hero-bread" style="background-image: url(/images/bg_1.jpg);">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>Products</span>
+                </p>
+                <h1 class="mb-0 bread">Products</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 mb-5 text-center">
+                <ul class="product-category">
+                    <li><a href="/shop/menu" class="">All</a></li>
+                    <li><a href="/shop/pizza" class="active">Pizza</a></li>
+                    <li><a href="/shop/sides" class="">Sides</a></li>
+                    <li><a href="/shop/drinks" class="">Drinks</a></li>
+                </ul>
+            </div>
+        </div>
+
+        {{# each products}}
+
+            <div class="row">
+                {{# each this}}
+
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+
+                        <div class="product">
+
+                            <a href="#" class="img-prod"><img class="img-fluid" src="{{this.imagePath}}" alt="Colorlib Template">
+                            </a>
+                            <div class="text py-3 pb-4 px-3 text-center">
+                                <h3><a href="#">{{this.title}} </a></h3>
+                                <div class="d-flex">
+                                    <div class="pricing">
+                                        <p class="price"><span>Rs.{{this.price}}</span></p>
+                                    </div>
+                                </div>
+                                <div class="bottom-area d-flex px-3">
+                                    <div class="m-auto d-flex">
+
+                                        <a href="/add-to-cart/{{this._id}}" class="cart d-flex justify-content-center align-items-center ">
+                                            <span><i class="ion-ios-cart"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                {{/each}}
+
+            </div>
+        {{/each}}
+
+
+
+
+
+    </div>
+
+</section>

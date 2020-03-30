@@ -1,0 +1,149 @@
+<div class="hero-wrap hero-bread" style="background-image: url(/images/bg_1.jpg);">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>About us</span></p>
+                <h1 class="mb-0 bread">About us</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="ftco-section ftco-cart">
+<div class="container">
+<div class="row">
+<div class="col-md-12 ftco-animate">
+<div class="cart-list">
+    <h1>User Profile</h1>
+    <div class="panel-body">
+        <ul class="list-group">
+            <li>
+                <p>Name: {{this.user.name}}</p>
+            </li>
+            <li>
+                <p>Address: {{this.user.address}}</p>
+            </li>
+            <li>
+                <p>Zip: {{this.user.zip}}</p>
+
+            </li>
+            <li>
+                <p>Phone: {{this.user.phone}}</p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    {{# if orders}}
+    <h2>My Orders</h2>
+
+    {{# each orders}}
+
+<table class="table">
+
+    <thead class="thead-primary">
+    <tr class="text-center">
+        <th>Order:</th>
+
+        <th>Product name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+    </tr>
+    </thead>
+<tbody>
+    {{# each this.items}}
+
+        <tr class="text-center">
+
+            <td class="image-prod">
+                <div class="img" style="background-image:url({{this.item.imagePath}});"></div>
+            </td>
+
+            <td class="product-name">
+                <h3>{{this.item.title}}</h3>
+            </td>
+
+            <td class="price">Rs.{{this.item.price}}</td>
+
+            <td class="quantity">{{this.qty}}</td>
+        </tr><!-- END TR-->
+    {{/each}}
+    {{/each}}
+    </tbody>
+    </table>
+    {{else}}
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center align-content-around">
+                <div class="col-md-9 ftco-animate text-center">
+                    <h1 class="mb-0 bread">No Orders Yet.</h1>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+
+
+    {{# if reservations}}
+        <h2>My Reservations</h2>
+
+
+        <table class="table">
+
+            <thead class="thead-primary">
+            <tr class="text-center">
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Table No.</th>
+
+            </tr>
+            </thead>
+        <tbody>
+        {{# each reservations}}
+
+            {{# each this}}
+                    <tr class="text-center">
+
+                        <td class="product-name">
+                            <h3>{{this.name}}</h3>
+                        </td>
+
+                        <td class="price">{{this.phone}}</td>
+
+                        <td class="product-details">{{this.email}}</td>
+                        <td class="quantity">{{this.date}}</td>
+                        <td class="quantity">{{this.time}}</td>
+                        <td class="quantity">{{this.tablename}}</td>
+                    </tr><!-- END TR-->
+
+            {{/each}}
+
+        {{/each}}
+
+
+    </tbody>
+    </table>
+
+
+    {{else}}
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-center align-content-around">
+                <div class="col-md-9 ftco-animate text-center">
+                    <h1 class="mb-0 bread">No Reservations Yet.</h1>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+
+
+
+
+
+
+</div>
+    </div>
+    </div>
+
+    </div>
+    </section>

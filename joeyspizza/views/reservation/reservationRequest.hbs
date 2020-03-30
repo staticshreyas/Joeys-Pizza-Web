@@ -1,0 +1,48 @@
+<div class="hero-wrap hero-bread" style="background-image: url(/images/bg_1.jpg);">
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9 ftco-animate text-center">
+                <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>About us</span></p>
+                <h1 class="mb-0 bread">Reservation</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pen-title">
+    <h1>Reservation Form</h1>
+</div>
+<!-- Form Module-->
+<div class="module form-module">
+    <div class="toggle">
+        <div><a href="signup" style="color: white">Register</a> </div><i class="fa fa-times fa-pencil"></i>
+    </div>
+    <div class="form">
+        <h2>Pick Date And Time</h2>
+
+        <form action="../reservation/reservationRequest" method="post">
+            <div>
+                <input type="date" name="date" id="date"  placeholder="Date" />
+            </div>
+
+            <div>
+                <input list="time" name="time" placeholder="Time">
+                <datalist id="time" name="time">
+                    <option value="11:00">
+                    <option value="13:00">
+                    <option value="15:00">
+                    <option value="19:00">
+                    <option value="21:00">
+                    <option value="23:00">
+                </datalist>
+
+            </div>
+
+            <button type="submit">Check Availability</button>
+        </form>
+
+    </div>
+
+</div>
+
