@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db28a9f3-4429-4315-97fd-ee4078d63066" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +27,16 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YfxQ56rTcQxGVuAgKWmVOZ9crC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -130,12 +133,16 @@
       <workItem from="1585583350457" duration="9000" />
       <workItem from="1585583439085" duration="603000" />
       <workItem from="1585586784741" duration="13000" />
-      <workItem from="1585589616815" duration="1496000" />
+      <workItem from="1585589616815" duration="2172000" />
+      <workItem from="1585592739430" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="356" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585582084469">
@@ -191,15 +198,19 @@
     </state>
     <state x="405" y="72" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1584810615488" />
     <state x="405" y="72" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1583418786849" />
-    <state x="397" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1585589616507">
+    <state x="397" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1585592739996">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1585589616507" />
+    <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1585592739996" />
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1585583439662" />
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1585391807586" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585085033241" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.824@0.23.1440.824" timestamp="1585166856735" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1584534301629" />
+    <state x="371" y="58" width="683" height="729" key="find.popup" timestamp="1585592131719">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="371" y="58" width="683" height="729" key="find.popup/0.23.1440.816@0.23.1440.816" timestamp="1585592131719" />
     <state x="574" y="227" width="670" height="672" key="search.everywhere.popup" timestamp="1585590001155">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
