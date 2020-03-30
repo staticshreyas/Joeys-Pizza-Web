@@ -15,7 +15,6 @@ const Handlebars = require('handlebars');
 const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access');
 const imagemin = require('imagemin');
 const imageminJpegtran = require('imagemin-jpegtran');
-const imageminPngquant = require('imagemin-pngquant');
 
 
 
@@ -98,9 +97,6 @@ app.use(function(err, req, res, next) {
     destination: 'build/images',
     plugins: [
       imageminJpegtran(),
-      imageminPngquant({
-        quality: [0.6, 0.8]
-      })
     ]
   });
 
