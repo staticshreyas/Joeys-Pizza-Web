@@ -96,7 +96,9 @@ app.use(function(err, req, res, next) {
   const files = await imagemin(['/images/*.{jpg,png}'], {
     destination: '/images',
     plugins: [
-      imageminJpegtran(),
+      imageminJpegtran({
+        quality: [0.6, 0.8]
+      })
     ]
   });
 
