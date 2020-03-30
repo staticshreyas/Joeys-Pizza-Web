@@ -21,7 +21,7 @@ var shopRouter =require('./routes/shop');
 
 var app = express();
 
-const port = process.env.PORT;
+app.set('port', (process.env.PORT || 5000));
 
 
 //mongodb://<dbuser>:<dbpassword>@ds035856.mlab.com:35856/heroku_hmc4062j
@@ -89,7 +89,9 @@ app.use(function(err, req, res, next) {
 });
 
 
+app.listen(app.get('port'),function () {
+console.log('Node app is running');
+});
 
 
 module.exports = app;
-app.listen(port);
