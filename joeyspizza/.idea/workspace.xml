@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db28a9f3-4429-4315-97fd-ee4078d63066" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +140,14 @@
       <workItem from="1585589616815" duration="2172000" />
       <workItem from="1585592739430" duration="712000" />
       <workItem from="1585593874180" duration="22000" />
-      <workItem from="1585594349454" duration="571000" />
+      <workItem from="1585594349454" duration="867000" />
+      <workItem from="1585656946456" duration="164000" />
+      <workItem from="1585730299091" duration="165000" />
+      <workItem from="1585731763507" duration="1682000" />
+      <workItem from="1585744589885" duration="444000" />
+      <workItem from="1586005830033" duration="25000" />
+      <workItem from="1586012944258" duration="67000" />
+      <workItem from="1586267030364" duration="742000" />
     </task>
     <servers />
   </component>
@@ -163,6 +174,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="489" y="331" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.822@0.23.1440.822" timestamp="1584803811154" />
+    <state x="516" y="345" key="Github.CreateGistDialog" timestamp="1585657140667">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="516" y="345" key="Github.CreateGistDialog/0.23.1440.816@0.23.1440.816" timestamp="1585657140667" />
     <state width="1200" height="199" key="GridCell.Tab.0.bottom" timestamp="1585582559881">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -200,11 +215,11 @@
     </state>
     <state x="405" y="72" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1584810615488" />
     <state x="405" y="72" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1583418786849" />
-    <state x="397" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1585594349391">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="397" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1586267030630">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1585594349391" />
-    <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1585583439662" />
+    <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1585744589976" />
+    <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1586267030630" />
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1585391807586" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1585085033241" />
     <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.824@0.23.1440.824" timestamp="1585166856735" />
@@ -213,10 +228,11 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="371" y="58" width="683" height="729" key="find.popup/0.23.1440.816@0.23.1440.816" timestamp="1585592131719" />
-    <state x="574" y="227" width="670" height="672" key="search.everywhere.popup" timestamp="1585590001155">
+    <state x="574" y="227" width="670" height="672" key="search.everywhere.popup" timestamp="1586012993599">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="574" y="227" width="670" height="672" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1585590001155" />
+    <state x="574" y="227" width="670" height="672" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1586012993599" />
+    <state x="574" y="228" width="670" height="677" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1585730344551" />
     <state x="574" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1584896337763" />
     <state x="446" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1583757114574" />
     <state x="549" y="363" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583775160122">
