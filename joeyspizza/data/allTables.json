@@ -1,14 +1,14 @@
 {
   "tables": [
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
       "name": "Table 1",
       "capacity": 5,
       "isAvailable": true,
       "location": "Bar"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 2",
       "capacity": 5,
@@ -16,7 +16,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 3",
       "capacity": 5,
@@ -24,7 +24,7 @@
       "location": "Bar"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 4",
       "capacity": 6,
@@ -32,7 +32,7 @@
       "location": "Inside"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 5",
       "capacity": 7,
@@ -40,7 +40,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 6",
       "capacity": 2,
@@ -48,7 +48,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 7",
       "capacity": 2,
@@ -56,7 +56,7 @@
       "location": "Bar"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table.jpg",
 
       "name": "Table 8",
       "capacity": 3,
@@ -64,7 +64,7 @@
       "location": "Bar"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 9",
       "capacity": 5,
@@ -72,7 +72,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 10",
       "capacity": 4,
@@ -80,7 +80,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 11",
       "capacity": 3,
@@ -88,7 +88,7 @@
       "location": "Bar"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 12",
       "capacity": 5,
@@ -96,7 +96,7 @@
       "location": "Inside"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 13",
       "capacity": 2,
@@ -104,7 +104,7 @@
       "location": "Bar"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 14",
       "capacity": 3,
@@ -112,7 +112,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 15",
       "capacity": 7,
@@ -120,7 +120,7 @@
       "location": "Patio"
     },
     {
-      "imagePath": "/images/product-1.jpg",
+      "imagePath": "/images/table2.jpg",
 
       "name": "Table 16",
       "capacity": 2,

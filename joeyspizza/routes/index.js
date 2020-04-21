@@ -6,7 +6,6 @@ var Cart =require('../models/cart');
 var Product = require('../models/product');
 var Order = require('../models/orders');
 var Contact =require('../models/contact');
-var Table =require('../models/table').model;
 var Reservation =require('../models/reservation').model;
 var Day =require('../models/day').model;
 
@@ -307,13 +306,6 @@ router.get('/book/:name', function (req,res,next) {
                     }
                 });
 
-
-
-
-
-
-
-
             } else {
                 console.log("Day not found");
             }
@@ -323,45 +315,39 @@ router.get('/book/:name', function (req,res,next) {
 
     });
 
-    Table.findOne({name: req.params.name}, function(err,doc) {
-        doc.isAvailable = false;
-        doc.save(err => {
-            if (err) {
-                console.log(err);
-            }
-        });
-
-    });
-
-
-
-
-
 });
 
 
 router.get('/reservation/reservationCheck',isLoggedIn, function (req,res,next) {
-    const query= {isAvailable: true};
+    const query = {isAvailable: true};
 
 
-    Table.find(query, function (err,docs) {
-        if(err){
-            console.log(err);
+    Day.find({date: a, time: b}, (err, days) => {
+        if (!err) {
+            let day = days[0];
+            var docs = [];
+            day.tables.forEach(table => {
+                if(table.isAvailable===true){
+                    docs.push(table);
+
+                }
+            });
+            var productChunks = [];
+            var chunksize = 4;
+            for (var i = 0; i < docs.length; i += chunksize) {
+
+                    productChunks.push(docs.slice(i, i + chunksize));
+
+            }
+
+            res.render('reservation/reservationCheck', {title: 'Tables', products: productChunks});
         }
-        var productChunks = [];
-        var chunksize = 4;
-        for (var i = 0; i < docs.length; i += chunksize) {
-
-            productChunks.push(docs.slice(i, i + chunksize));
-
-
-        }
-
-    res.render('reservation/reservationCheck', {title: 'Tables', products: productChunks});
     });
 
 
 });
+
+
 
 
 

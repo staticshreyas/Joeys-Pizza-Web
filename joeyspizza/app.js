@@ -28,8 +28,10 @@ app.set('port', (process.env.PORT || 5000));
 
 
 //mongodb://<dbuser>:<dbpassword>@ds035856.mlab.com:35856/heroku_hmc4062j
-/*mongoose.connect('mongodb://localhost:27017/shopping',{useNewUrlParser: true, useUnifiedTopology: true});*/
-mongoose.connect('mongodb://shreyas_more:z1y2x3w4@ds035856.mlab.com:35856/heroku_hmc4062j',{useNewUrlParser: true, useUnifiedTopology: true});
+
+mongoose.connect('mongodb://localhost:27017/shopping',{useNewUrlParser: true, useUnifiedTopology: true}) || mongoose.connect('mongodb://shreyas_more:z1y2x3w4@ds035856.mlab.com:35856/heroku_hmc4062j',{useNewUrlParser: true, useUnifiedTopology: true});
+
+
 require('./config/passport');
 
 // view engine setup
