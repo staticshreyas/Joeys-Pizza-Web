@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db28a9f3-4429-4315-97fd-ee4078d63066" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/.bg_1.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.bg_2.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.bg_4.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.bg_5.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.category-1.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.product-18.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.product-20.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.product-21.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.product-22.jpg.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/.table.jpg.icloud" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/TableSeeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/TableSeeder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/allTables.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/allTables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/category-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/product-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/product-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/product-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/product-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/table.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +168,12 @@
       <workItem from="1586456889261" duration="68000" />
       <workItem from="1586529314389" duration="351000" />
       <workItem from="1587480851689" duration="3559000" />
+      <workItem from="1587484643932" duration="299000" />
+      <workItem from="1587559778517" duration="53000" />
+      <workItem from="1587561701709" duration="58000" />
+      <workItem from="1587561761729" duration="6000" />
+      <workItem from="1587571313282" duration="39000" />
+      <workItem from="1587571425682" duration="52000" />
     </task>
     <servers />
   </component>
