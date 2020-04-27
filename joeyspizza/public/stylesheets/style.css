@@ -11595,7 +11595,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: white !important;
     position: relative;
     top: 0;
     padding: 10px 15px;
@@ -11618,7 +11618,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-brand {
-    color: #fff;
+    color: #000000;
   }
 }
 
@@ -11651,11 +11651,11 @@ h5,
     padding-right: 0;
     padding-top: .9rem;
     padding-bottom: .9rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: black;
   }
 
   .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-    color: #fff;
+    color: #5F0038;
   }
 }
 
@@ -11734,13 +11734,13 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-    color: #fff;
+    color: #000000;
   }
 }
 
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: black !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -12501,6 +12501,10 @@ h5,
 @media (max-width: 991.98px) {
   .product {
     margin-bottom: 30px;
+  }
+
+  .product-category {
+    margin-right: 45px;
   }
 }
 
